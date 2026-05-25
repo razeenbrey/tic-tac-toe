@@ -1,0 +1,23 @@
+.cell button {
+  width: 90px;
+  height: 90px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #0f3460;
+  color: #eee;
+}
+
+.cell button:hover:not(:disabled) {
+  background: #1a4a7a;
+}
+
+.cell button:disabled {
+  cursor: default;
+}
+
+.cell button:not(:disabled) {
+  color: #e94560;
+}
